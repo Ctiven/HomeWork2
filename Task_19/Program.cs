@@ -7,7 +7,7 @@
 
 
 
-Console.WriteLine("Введите число ");
+Console.WriteLine("Введите пятизначное число ");
 int n = Convert.ToInt32(Console.ReadLine());
 int nPolindrome = n;
 int rev = 0;
