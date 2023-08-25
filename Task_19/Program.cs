@@ -11,13 +11,13 @@ Console.WriteLine("Введите пятизначное число ");
 int n = Convert.ToInt32(Console.ReadLine());
 int nPolindrome = n;
 int rev = 0;
-while(n > 0)
+while (n > 0)
 {
-   int dig = n % 10;
+    int dig = n % 10;
     rev = rev * 10 + dig;
-    n = n/10;
+    n = n / 10;
 }
-if(nPolindrome == rev)
+if (nPolindrome == rev)
 {
     Console.WriteLine("Это палоиндром");
 }
